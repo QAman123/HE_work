@@ -1,0 +1,105 @@
+{
+  "start": {
+        "text": "**What is the sustainable cup for my market or event?**\n\nThe honest answer is: **it depends**.\n\n As circumstances are different in each market,a Good Cup in one market can be a Bad Cup in a different market. Heineken Global Commerce team has developed an assortment of different Heineken branded cups to suit any event. With the information in this playbook, the most suitable cup type, material and decoration can be selected. The right cup, for the right market, with the right information.",
+    "image": "images/1.png",
+    "options": {
+      "Lets Go Explore!": "start_2"
+    }
+  },
+  "start_2": {
+    "text": "Serve from bottle/glass/cans?\n\nWhen possible, serve from glass, bottles or cans. The most sustainable cup is no cup! Often there are restrictions at certain events for using glassware, bottles or cans. ",
+    "options": {
+      "We will serve from glass, bottle or cans": "2a",
+      "We need cups for my market": "2b"
+    }
+  },
+  "2a": {
+    "text": "Serve from bottle/glass/cans. \n\nGreat!. Serve from glassware, bottles or cans for the most sustainable solution. \n\n If you want to explore other options, go 1 step back or start over below.",
+    "advice": true,
+    "advice_text": "Serve from bottle/glass/cans. Ensure this is allowed on the intended events"
+  },
+  "2b": {
+    "text": "**Is it possible to use reusable cups?**\n\n**Reusable plastic cups** are considered in general more sustainable, but bring higher upfront cost and require an effective cup management process (collection/deposit system to get cups returned, washing of the cups, storage and transport of the cups).  \n\n**Single use cups** are the most common for large events. Even when using single use cups, there are still considerations to reduce the sustainability impact.\n\nLooking for an alternative to plastic cups? Explore **alternative materials**. ",
+    "options": {
+      "Let's go for reusable cups": "2b1",
+      "Let's go for single use cups": "2b2",
+      "Let's explore alternative materials": "2b3"
+    }
+  },
+  "2b1": {
+    "text": "Reusable cup options \n\n Great you want to explore using reusable cups. There are 2 main material options for reusable cups:\n\n **Polycarbonate/Tritan** - Also known as a copolyester. It is hard, transparant and shatterproof. It looks like glass, often used for premium events\n\n **Polypropylene** - Milky white translucent plastic, softer than a copolyester but has a signficant lower cost.",
+    "options": {
+      "Polycarbonate/Tritan": "Polycarbonate/Tritan",
+      "Polypropylene": "Polypropylene"
+    }
+  },
+  "2b2": {
+    "text": "Consider roles that blend creativity within structure.",
+    "advice": true
+  },
+    "Polycarbonate/Tritan": {
+    "text": "Consider roles that blend creativity within structure.",
+      "image": "images/pc_reusable.png",
+    "advice": true,
+      "advice_text": "Advice PC/Tritan"
+  },
+    "Polypropylene": {
+    "text": "Consider roles that blend creativity within structure.",
+      "image": "images/pp_reusable.png",
+    "advice": true,
+      "advice_text": "Advice PP"
+  },
+
+
+  "2b3": {
+    "text": "Do you prefer working with people or with data?",
+    "options": {
+      "People": "consultant",
+      "Data": "data_analyst",
+      "Both": "product_manager"
+    }
+  },
+  "stable_flexible": {
+    "text": "Project management might suit your style!",
+    "advice": true
+  },
+  "remote_independent": {
+    "text": "Do you like solving technical problems?",
+    "options": {
+      "Yes": "remote_dev",
+      "No": "remote_writer"
+    }
+  },
+  "remote_support": {
+    "text": "Customer support or coordination roles could be a fit.",
+    "advice": true
+  },
+  "process_engineer": {
+    "text": "You might thrive as a process engineer!",
+    "advice": true
+  },
+  "operations_staff": {
+    "text": "Consider roles in logistics or operations support.",
+    "advice": true
+  },
+  "consultant": {
+    "text": "A consultant role can match your dynamic and people-driven style.",
+    "advice": true
+  },
+  "data_analyst": {
+    "text": "A data analyst role can keep you engaged with variety and insights.",
+    "advice": true
+  },
+  "product_manager": {
+    "text": "Product management blends teamwork, variety, and strategic thinking.",
+    "advice": true
+  },
+  "remote_dev": {
+    "text": "Remote development or engineering may suit you well!",
+    "advice": true
+  },
+  "remote_writer": {
+    "text": "Remote content writing or editing could be ideal.",
+    "advice": true
+  }
+}
