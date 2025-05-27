@@ -1,25 +1,39 @@
 {
   "start": {
-        "text": "**What is the sustainable cup for my market or event?**\n\nThe honest answer is: **it depends**.\n\n As circumstances are different in each market,a Good Cup in one market can be a Bad Cup in a different market. Heineken Global Commerce team has developed an assortment of different Heineken branded cups to suit any event. With the information in this playbook, the most suitable cup type, material and decoration can be selected. The right cup, for the right market, with the right information.",
+        "text": "**What is the sustainable cup for my market or event?**\n\nThe honest answer is: **it depends**.\n\n As circumstances are different in each market, a Good Cup in one market can be a Bad Cup in a different market. Heineken Global Commerce team has developed an assortment of different Heineken branded cups to suit any event. With the information in this playbook, the most suitable cup type, material and decoration can be selected. \n\n **The right cup, for the right market, with the right information.**",
     "image": "images/1.PNG",
     "options": {
-      "Lets Go Explore!": "start_2"
+      "Lets Go Explore which cup is the best for your market!": "start_2",
+      "Learn more about compliance on cups": "compliance"
     }
   },
   "start_2": {
-    "text": "Serve from bottle/glass/cans?\n\nWhen possible, serve from glass, bottles or cans. The most sustainable cup is no cup! Often there are restrictions at certain events for using glassware, bottles or cans. ",
+    "text": "Serve from bottle, glassware or cans?\n\n**The most sustainable cup is no cup!** Consider serving from bottles, glassware or cans whenever possible. Check with the event organizers for restrictions and what is possible.",
+    "image": "images/2.PNG",
     "options": {
       "We will serve from glass, bottle or cans": "2a",
-      "We need cups for my market": "2b"
-    }
+      "We will serve from cups": "2b"
+      }
+    },
+
+
+  "compliance": {
+  "text": "**Compliance** ",
+  "image2": "images/compliance.PNG",
+  "advice": true,
+  "advice_text": ""
   },
+
+
   "2a": {
-    "text": "Serve from bottle/glass/cans. \n\nGreat!. Serve from glassware, bottles or cans for the most sustainable solution. \n\n If you want to explore other options, go 1 step back or start over below.",
+    "text": "Serve from bottle, glassware or cans! \n\nGreat! Serving from glassware, bottles or cans is the most sustainable solution. \n\n If you want to explore other options, go 1 step back or start over below.",
+    "image": "images/3.PNG",
     "advice": true,
-    "advice_text": "Serve from bottle/glass/cans. Ensure this is allowed on the intended events"
+    "advice_text": "Serve from bottle, glassware or cans! Check with the event organizers for restrictions and what is possible."
   },
   "2b": {
     "text": "**Is it possible to use reusable cups?**\n\n**Reusable plastic cups** are considered in general more sustainable, but bring higher upfront cost and require an effective cup management process (collection/deposit system to get cups returned, washing of the cups, storage and transport of the cups).  \n\n**Single use cups** are the most common for large events. Even when using single use cups, there are still considerations to reduce the sustainability impact.\n\nLooking for an alternative to plastic cups? Explore **alternative materials**. ",
+    "image": "images/4.PNG",
     "options": {
       "Let's go for reusable cups": "2b1",
       "Let's go for single use cups": "2b2",
@@ -27,79 +41,84 @@
     }
   },
   "2b1": {
-    "text": "Reusable cup options \n\n Great you want to explore using reusable cups. There are 2 main material options for reusable cups:\n\n **Polycarbonate/Tritan** - Also known as a copolyester. It is hard, transparant and shatterproof. It looks like glass, often used for premium events\n\n **Polypropylene** - Milky white translucent plastic, softer than a copolyester but has a signficant lower cost.",
+    "text": "**Reusable cup options** \n\n Great you want to explore using reusable cups. There are 2 main material options for reusable cups:\n\n **Polycarbonate/Tritan** - Also known as a copolyester. It is hard, transparant and shatterproof. It looks like glass, often used for premium events\n\n **Polypropylene** - Milky white translucent plastic, softer than a copolyester but has a signficant lower cost.\n\n **Consideration:** \n\n PP cups are in general used more due to slightly better sustainability characteristics and better pricing. PC cups are sometimes preferred for premium events due to the better look and feel. PP cups are in general slightly better recyclable, check with your local plastic recycling companies which plastics are accepted for recycling.",
+    "image": "images/5.PNG",
     "options": {
-      "Polycarbonate/Tritan": "Polycarbonate/Tritan",
-      "Polypropylene": "Polypropylene"
+      "Polycarbonate/Tritan cups": "Polycarbonate/Tritan",
+      "Polypropylene cups": "Polypropylene",
+      "Learn more on key lookouts using reusable cups": "keyreusable"
+    }
+   },
+  "2b2": {
+    "text": "**Single use cup option**\n\n If reusable cups are not feasible in your market, there are different options for single use plastic cups. \n\nThere are 2 main options: Polypropylene and RPET. Visually and tactile they are very similar, but have a different sustainability characteristic.\n\n**Consideration:**\n\nBoth RPET cups and PP cups have their sustainability advantages and disadvantages, and the better option depends on the specific circumstances of the event. RPET is a type of plastic that is made from recycled PET materials, such as plastic bottles. Using RPET cups can help reduce waste and conserve resources, as they are made from recycled materials and can be recycled into new products. PP cups, on the other hand, are not made from recycled materials, but they are also recyclable. PP cups are also lightweight and have a lower carbon footprint than RPET cups. Not only in production, but also less weight has to be transported.\n\n**To make the right choice:**\n\nTo make the right choice, it is important to consider two key factors. The first is the availability of recycling facilities in your local area. While all plastics are technically recyclable, local recycling plants might not accept all types of plastic. Therefore, you should use the type of plastic cup material that has the highest chance of getting recycled in your market. Check with local municipalities or waste management companies to determine which type of cup is most appropriate. If both RPET and PP cups have the same chance of being recycled, then your decision should be based on your environmental priorities. If reducing CO2 emissions is more important, then you should use PP cups. The exact difference in carbon footprint depends on the cup shape/size and any transport distances. On the other hand, if reducing the use of virgin materials is more important, then you should use RPET cups. By using recycled materials, you can help conserve natural resources and reduce the environmental impact of your event.\n\n **Branding on cups**\n\n Be careful with branding cups for specific events. If a specific event/date is mentioned on a cup, they might not be usable after the event, leading to discarding/writing off the leftover unused cups. Click below to learn more on decoration options",
+    "image": "images/6.PNG",
+    "options": {
+      "RPET cups": "RPET",
+      "Polypropylene cups": "Polypropylene_single",
+      "Learn more about decoration options": "decoration"
     }
   },
-  "2b2": {
-    "text": "Consider roles that blend creativity within structure.",
-    "advice": true
+    "decoration": {
+    "text": "Decoration options single use cups",
+      "image2": "images/decoration.PNG",
+    "advice": true,
+      "advice_text": ""
   },
     "Polycarbonate/Tritan": {
-    "text": "Consider roles that blend creativity within structure.",
-      "image": "images/pc_reusable.PNG",
+    "text": "Polycarbonate/Tritan reusable cups",
+      "image2": "images/pc_reusable.PNG",
     "advice": true,
       "advice_text": "Advice PC/Tritan"
   },
     "Polypropylene": {
-    "text": "Consider roles that blend creativity within structure.",
-      "image": "images/pp_reusable.PNG",
+    "text": "Polypropylene reusable cups",
+      "image2": "images/pp_reusable.PNG",
     "advice": true,
       "advice_text": "Advice PP"
   },
-
-
+      "RPET": {
+    "text": "RPET single use cup",
+      "image2": "images/rpet.PNG",
+    "advice": true,
+      "advice_text": "Advice RPET"
+  },
+      "Polypropylene_single": {
+    "text": "PP single use cup",
+      "image2": "images/pp_single.PNG",
+    "advice": true,
+      "advice_text": "Advice PP"
+  },
+    "keyreusable": {
+  "text": "**Key lookouts for using reusable cups**",
+    "image2": "images/key_lookouts_reusable.PNG",
+  "advice": true,
+    "advice_text": ""
+  },
   "2b3": {
-    "text": "Do you prefer working with people or with data?",
+    "text": "**Alternative cup materials**\n\n If normal plastic can't be used at your events, there are other materials that can be considered.\n\n **Paper cups**\n\n Paper cups seems like a sustainable plastic free solution, but often they have a plastic liner. Nowadays more plastic free paper cups become available.\n\n **Metal cups** \n\n A potential solution for using highly recyclable material. There are aluminium single use cups and Reusable cups from stainless steel or aluminium\n\n **Why not biodegradable plastic cups**\n\n Is biodegradable plastic the answer? The short answer is no! Learn more about it below.",
+    "image": "images/1.PNG",
     "options": {
-      "People": "consultant",
-      "Data": "data_analyst",
-      "Both": "product_manager"
+      "Paper cups": "papercup",
+      "Metal cups": "metalcup",
+      "Why not Biodegradable plastic cups": "biocup"
     }
   },
-  "stable_flexible": {
-    "text": "Project management might suit your style!",
-    "advice": true
+    "papercup": {
+  "text": "**Paper cups**\n\n A potential solution to reduce plastic waste. \n\n **Considerations:** \n\n- In the past this paper cups were not considered as it often contained a plastic liner, which makes it difficult to recycle of decompose. Nowadays there are plastic free paper cups available. Ensure that the cups are plastic free and do not require the European *Made of plastic* symbol. \n\n- Taste deviation is slightly higher compared to plastic cups, but within legally allowed deviation (EU legislation). Deviation is minimized by reducing the amount of ink used on decoration. \n\n- The paper cups have a higher CO2 footprint than single use plastic cups, but reduce plastic waste. \n\n- Beer is not visible. When using free-flow draught systems, it is hard to determine if the right amount of beer/foam has been poured. \n\n- No CE-marking to gaugeline possible, therefore it can not be used in certain situations. Please verify beforehand if the cups can be used in the specific events",
+    "image2": "images/papercups.PNG",
+  "advice": true,
+    "advice_text": "Advice PP"
   },
-  "remote_independent": {
-    "text": "Do you like solving technical problems?",
-    "options": {
-      "Yes": "remote_dev",
-      "No": "remote_writer"
-    }
+      "biocup": {
+  "text": "**Why not Biodegradable cups**\n\n",
+    "image2": "images/biocup.PNG",
+  "advice": true,
+    "advice_text": ""
   },
-  "remote_support": {
-    "text": "Customer support or coordination roles could be a fit.",
-    "advice": true
-  },
-  "process_engineer": {
-    "text": "You might thrive as a process engineer!",
-    "advice": true
-  },
-  "operations_staff": {
-    "text": "Consider roles in logistics or operations support.",
-    "advice": true
-  },
-  "consultant": {
-    "text": "A consultant role can match your dynamic and people-driven style.",
-    "advice": true
-  },
-  "data_analyst": {
-    "text": "A data analyst role can keep you engaged with variety and insights.",
-    "advice": true
-  },
-  "product_manager": {
-    "text": "Product management blends teamwork, variety, and strategic thinking.",
-    "advice": true
-  },
-  "remote_dev": {
-    "text": "Remote development or engineering may suit you well!",
-    "advice": true
-  },
-  "remote_writer": {
-    "text": "Remote content writing or editing could be ideal.",
-    "advice": true
+    "metalcup": {
+  "text": "**Metal cups**\n\n Considerations: \n\n- All metal cups are highly recyclable and most recyclers will accept the used metals. \n\n- The cups can be used on events or used as premium gift (with or without giftbox). \n\n- The aluminium cup is technically strong enough to be reused. However, due to scratch and dent sensitivity during handling/ washing, it is not recommend to use as reusable cup. \n\n- The aluminium single use cups have a higher CO2 footprint than single use plastic cups when not recycled. Therefore it is critical that an effective collection/recycling system needs to be in place to ensure the cups get recycled. \n\n- Beer is not visible. When using free-flow draught systems, it is hard to determine if the right amount of beer/foam has been poured. \n\n- No CE-marking to gaugeline possible, therefore it can not be used in certain situations. Please verify beforehand if the cups can be used in the specific events.",
+    "image2": "images/metalcups.PNG",
+  "advice": true,
+    "advice_text": "Advice PP"
   }
 }

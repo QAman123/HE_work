@@ -1,6 +1,20 @@
 import streamlit as st
 import json
 
+import streamlit.components.v1 as components
+
+def scroll_to_top():
+    components.html(
+        """
+        <script>
+        window.parent.document.querySelector('section.main').scrollTo(0, 0);
+        </script>
+        """,
+        height=0,
+    )
+
+
+
 # Load tree
 with open("decision_tree_test.json") as f:
     tree = json.load(f)
@@ -40,10 +54,10 @@ st.title(main_question)                   # Bold + bigger font by default with t
 if details.strip():
     st.markdown(details)                  # Formatted markdown for details
 
-# Optional image
-if "image" in node:
-    st.image(node["image"], use_container_width=True)
 
+# Optional image
+if "image2" in node:
+    st.image(node["image2"], use_container_width=True)
 
 
 # Final advice node
@@ -77,3 +91,6 @@ if st.session_state.path:
         st.session_state.path = st.session_state.path[:-1]
         st.rerun()
 
+# Optional image
+if "image" in node:
+    st.image(node["image"], use_container_width=True)
