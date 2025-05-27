@@ -1,7 +1,7 @@
 {
   "start": {
         "text": "**What is the sustainable cup for my market or event?**\n\nThe honest answer is: **it depends**.\n\n As circumstances are different in each market,a Good Cup in one market can be a Bad Cup in a different market. Heineken Global Commerce team has developed an assortment of different Heineken branded cups to suit any event. With the information in this playbook, the most suitable cup type, material and decoration can be selected. The right cup, for the right market, with the right information.",
-    "image": "images/1.png",
+    "image": "images/1.PNG",
     "options": {
       "Lets Go Explore!": "start_2"
     }
@@ -39,13 +39,13 @@
   },
     "Polycarbonate/Tritan": {
     "text": "Consider roles that blend creativity within structure.",
-      "image": "images/pc_reusable.png",
+      "image": "images/pc_reusable.PNG",
     "advice": true,
       "advice_text": "Advice PC/Tritan"
   },
     "Polypropylene": {
     "text": "Consider roles that blend creativity within structure.",
-      "image": "images/pp_reusable.png",
+      "image": "images/pp_reusable.PNG",
     "advice": true,
       "advice_text": "Advice PP"
   },
