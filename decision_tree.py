@@ -3,6 +3,18 @@ import json
 
 import streamlit.components.v1 as components
 
+# Hide Streamlit branding, menu, and footer
+hide_streamlit_style = """
+    <style>
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    header {visibility: hidden;}
+    </style>
+"""
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+
+
+
 def scroll_to_top():
     components.html(
         """
