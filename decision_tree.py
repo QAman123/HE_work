@@ -3,6 +3,8 @@ import json
 
 import streamlit.components.v1 as components
 
+st.set_page_config(page_title="Cup Selection Tool")
+
 # Hide Streamlit branding, menu, and footer
 hide_streamlit_style = """
     <style>
@@ -13,7 +15,7 @@ hide_streamlit_style = """
 """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
-st.set_page_config(page_title="Cup Selection Tool", page_icon="🍺")
+
 
 
 def scroll_to_top():
